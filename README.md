@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/version-0.3.0-blue.svg?style=flat-square)
+![Version](https://img.shields.io/badge/version-0.4.0-blue.svg?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-emerald.svg?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-orange.svg?style=flat-square)
 ![Electron](https://img.shields.io/badge/Electron-39-47848F.svg?style=flat-square&logo=electron)
@@ -16,16 +16,16 @@
 
 ---
 
-## 📥 最新版本快速下載 (v0.3.0)
+## 📥 最新版本快速下載 (v0.4.0)
 
-請直接點擊下方連結下載最新穩定版本（2026-09-03 發布）：
+請直接點擊下方連結下載最新穩定版本（2026-11-21 發布）：
 
 | 平台 | 安裝檔案格式 | 檔案大小 | 官方直接下載連結 |
 | :--- | :--- | :--- | :--- |
-| 🍎 **macOS (Apple Silicon)** | `.dmg` (推薦) | **179.8 MB** | [👉 下載 `thinkrium-0.3.0.dmg`](https://github.com/roland-zbl/Thinkrium-Release/releases/download/v0.3.0/thinkrium-0.3.0.dmg) |
-| 🍎 **macOS (Apple Silicon)** | `.zip` (免安裝) | **174.9 MB** | [👉 下載 `Thinkrium-0.3.0-arm64-mac.zip`](https://github.com/roland-zbl/Thinkrium-Release/releases/download/v0.3.0/Thinkrium-0.3.0-arm64-mac.zip) |
-| 🪟 **Windows (64-bit)** | `.exe` (安裝檔) | **159.9 MB** | [👉 下載 `thinkrium-0.3.0-setup.exe`](https://github.com/roland-zbl/Thinkrium-Release/releases/download/v0.3.0/thinkrium-0.3.0-setup.exe) |
-| 🐧 **Linux** | `.flatpak` (全桌面) | **145.0 MB** | [👉 下載 `thinkrium-0.3.0.flatpak`](https://github.com/roland-zbl/Thinkrium-Release/releases/download/v0.3.0/thinkrium-0.3.0.flatpak) |
+| 🍎 **macOS (Apple Silicon)** | `.dmg` (推薦) | **179.5 MB** | [👉 下載 `thinkrium-0.4.0.dmg`](https://github.com/roland-zbl/Thinkrium-Release/releases/download/v0.4.0/thinkrium-0.4.0.dmg) |
+| 🍎 **macOS (Apple Silicon)** | `.zip` (免安裝) | **174.6 MB** | [👉 下載 `Thinkrium-0.4.0-arm64-mac.zip`](https://github.com/roland-zbl/Thinkrium-Release/releases/download/v0.4.0/Thinkrium-0.4.0-arm64-mac.zip) |
+| 🪟 **Windows (64-bit)** | `.exe` (安裝檔) | **159.7 MB** | [👉 下載 `thinkrium-0.4.0-setup.exe`](https://github.com/roland-zbl/Thinkrium-Release/releases/download/v0.4.0/thinkrium-0.4.0-setup.exe) |
+| 🐧 **Linux** | `.flatpak` (全桌面) | **145.7 MB** | [👉 下載 `thinkrium-0.4.0.flatpak`](https://github.com/roland-zbl/Thinkrium-Release/releases/download/v0.4.0/thinkrium-0.4.0.flatpak) |
 
 > 💡 想要瀏覽過往歷史版本，請至 [GitHub Releases 頁面](https://github.com/roland-zbl/Thinkrium-Release/releases) 查看完整清單。
 
@@ -53,7 +53,7 @@
 - **文章雙向回溯**：自動過濾廣告與無效樣式，支援外部瀏覽器快速開啟 (O)。
 
 ### 2. ⚡ 動態素材副畫布與一拽入文 (Contextual Dock & Drag-to-Quote)
-- **單一右側副畫布**：拒絕雙層側欄套疊！整合「📰 閱讀串流」、「🖍️ 劃線池」、「⚡ 隨行速寫」與「🔗 脈絡大綱」四大分頁，隨當前寫作情境智慧切換。
+- **單一右側副畫布**：拒絕雙層側欄套疊！整合「素材（劃線 / 文章分段）」與「脈絡（大綱 / 雙向引用 / 思考共鳴）」雙分頁，隨當前寫作情境智慧切換。
 - **靈感一拽入文 (Drag-to-Quote)**：看見觸動思緒的文章段落或劃線金句，直接拖曳到編輯器中，立即轉化為帶有來源晶片的精緻標準引用卡片；每張素材卡片亦配備懸浮「➕ 引用」一鍵置入。
 - **選取一鍵提升 (Promote to Entry/Note)**：在編輯器中選取靈感詞句，浮現一鍵提升為獨立筆記或概念藏識，原地自動替換為雙鏈晶片。
 
@@ -63,17 +63,17 @@
 - **零刷新時間戳快捷記錄 (Ctrl+Alt+T)**：隨時隨地在游標處插入即時時間戳，打字焦點 100% 保持，完全無感流暢。
 - **今日足跡整合 (Daily Footprints)**：自動抓取當日所有已讀文章與劃線金句，支援一鍵點擊無縫注入日記。
 
-### 4. 🗂️ 文庫全景卡片牆 (Library Cards Grid)
-- **響應式卡片牆**：未選中筆記時展開 2~5 欄流式卡片牆，展示格式徽章、加粗標題、純文字精華摘要（Snippet）與標籤。
-- **靈動雙欄寫作工作台**：點選任一卡片平滑切換 Master-Detail 雙欄寫作，並可隨時點擊「← 返回全覽」一鍵退回卡片網格。
-- **多元排序與過濾**：支援關鍵字即時檢索、格式膠囊篩選，以及依最後修改、建立時間與標題排序。
+### 4. 📚 主從雙欄文庫工作台 (Master-Detail Library)
+- **統一雙欄寫作體驗**：左側精簡筆記清單搭配右側全尺寸 Markdown 編輯器，進入文庫即預設開啟筆記。
+- **雙行緊湊標頭與三下拉篩選**：整合即時關鍵字搜尋，並將格式、藏識關聯與日期範圍收斂為單行下拉選單，支援依最後修改、建立時間與標題排序。
 
 ### 5. 🧠 藏識系統 (Entry / 結構化概念物件)
 - **結構化概念百科**：為概念、人物、產品、專案或公司建立具備元資料（Aliases、Properties）的知識卡片。
 - **自動聚合與時間軸**：自動匯集全庫所有引用該藏識的筆記、關聯劃線金句，並按時間軸自動梳理思維演進軌跡。
 
-### 6. 🔍 Spotlight 全域秒級搜尋與雙向鏈結
+### 6. 🔍 Spotlight 全域搜尋與檢索中樞 (Retrieval Hub)
 - **全域 Spotlight 搜尋條 (Ctrl+K)**：頂部一鍵呼出，採用 SQLite FTS5 全文檢索，支援簡繁互通與毫秒級快速穿透。
+- **檢索中樞與四大管理索引 (Ctrl+5)**：集中瀏覽並批次管理筆記、藏識、訂閱、劃線與標籤合併。
 - **原子雙向鏈結**：支援行內 @ 呼出素材選單，支援 [[note:id|標題]] 與 [[entry:id|名稱]] 雙向網狀交織。
 
 ### 7. 🛡️ 堅如磐石的資料安全防線 (Rock-Solid Safety)
@@ -88,7 +88,7 @@
 由於本開源發布包尚未向 Apple 申請付費開發者認證與公證 (Notarization)，首次安裝時 macOS Gatekeeper 可能會跳出「無法打開，因為無法驗證開發者」的提示：
 
 1. **常規打開方式 (推薦)**：
-   - 掛載下載的 `thinkrium-0.3.0.dmg`，將 Thinkrium 圖示拖入「應用程式 (Applications)」目錄。
+   - 掛載下載的 `thinkrium-0.4.0.dmg`，將 Thinkrium 圖示拖入「應用程式 (Applications)」目錄。
    - 在「應用程式」目錄中找到 Thinkrium，按住鍵盤 Control 鍵點擊圖示（或點擊 **滑鼠右鍵**），選擇 **「打開」**。
    - 在彈出的系統對話框中點選 **「仍要打開」**，之後即可永久正常直接點擊開啟。
 2. **終端機一鍵解除限制**：
@@ -104,7 +104,7 @@
 | 快捷鍵 | 功能作用 | 適用情境 |
 | :--- | :--- | :--- |
 | **Ctrl+K / Cmd+K** | 召喚 Spotlight 全域搜尋條 | 全域任意位置 |
-| **Ctrl+1 ~ 5** | 快速切換頂層視圖（Dashboard / Library / Feed / Entry / Journal） | 全域任意位置 |
+| **Ctrl+1 ~ 5** | 快速切換頂層視圖（Journal / Library / Entry / Feed / Search） | 全域任意位置 |
 | **Ctrl+\ / Cmd+\** | 展開 / 平滑收合主導航側欄 | 全域任意位置 |
 | **Ctrl+Alt+T** | 零刷新插入當前時間戳（如 # 15:30） | Journal 編輯器 |
 | **F** | 進入 / 退出專注閱讀模式 (Zen Mode) | Feed 閱讀串流 |
